@@ -1,7 +1,8 @@
 Version: 1
-Previous: 2d579ece571682fd9783b1fe5f4f2a779f90ed37
-Head: 0d65118336483df9c4868c79f155d6207b21d47c
+Previous: d2e711c9e55c907b6fcac4e43f4dd1f174a1315c
+Head: 3aa8fe94ff4f5aa9e99603044a2b8d9539acf7d1
 Applied:
   warn: 0d65118336483df9c4868c79f155d6207b21d47c
+  release-notes: 3aa8fe94ff4f5aa9e99603044a2b8d9539acf7d1
 Unapplied:
 Hidden:
