@@ -1,0 +1,12 @@
+Bottom: cc340034d17d7b1f6e62d548808ec268bdc2da96
+Top:    6e629ac091b8259aa3bcfaaa5db5d83cd0b10d21
+Author: scott snyder <sss@karma>
+Date:   2020-02-01 20:59:47 -0500
+
+Refresh of release-notes
+
+---
+
+diff --git a/doc/release.notes b/doc/release.notes
+new file mode 100644
+index 0000000..e69de29
