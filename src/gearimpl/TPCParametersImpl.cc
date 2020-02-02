@@ -482,7 +482,7 @@ namespace gear {
 	    throw gear::Exception("You cannot use TPCParametersImpl:::setReadoutFrequency() without a module. Set the module / pad plane first!");
 	//n.b. This ensures that there is at least one module,
 	// so it's save to use _TPCModules[0]
-	dynamic_cast<TPCModuleImpl*>(_TPCModules[0])->setReadoutFrequency(readoutFrequency);
+	dynamic_cast<TPCModuleImpl&>(*_TPCModules[0]).setReadoutFrequency(readoutFrequency);
     }
 
     void TPCParametersImpl::setPadLayout( PadRowLayout2D * padLayout )
