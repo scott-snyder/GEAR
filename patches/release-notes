@@ -1,13 +1,6 @@
-Bottom: cc340034d17d7b1f6e62d548808ec268bdc2da96
-Top:    6e629ac091b8259aa3bcfaaa5db5d83cd0b10d21
+Bottom: a87c9670a676f6e701fd1782b057edfa91625e0f
+Top:    bd0c5c18c18959e731204e8ad568c33a43152fc4
 Author: scott snyder <sss@karma>
 Date:   2020-02-01 20:59:01 -0500
 
 missing file
-
-
----
-
-diff --git a/doc/release.notes b/doc/release.notes
-new file mode 100644
-index 0000000..e69de29
