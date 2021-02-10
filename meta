@@ -1,9 +1,10 @@
 Version: 1
-Previous: 2176b2ae7abf6c041b34c0cf9eab8609fc8b3447
-Head: 2ccbcebdeae4c287b8216aeaf2f61115d923f09f
+Previous: 3f676c784880d6daf38d4879a7e7b3378102d86a
+Head: abed92fb12b8587579faa805419dbda1b8a42b21
 Applied:
   warn: 07063483485d61874c92002632b8a4320533010a
   release-notes: d3373ea13e9933a20ae24e55beb043882e509143
   gitignore: 2ccbcebdeae4c287b8216aeaf2f61115d923f09f
+  cmake: abed92fb12b8587579faa805419dbda1b8a42b21
 Unapplied:
 Hidden:
