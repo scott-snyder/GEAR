@@ -1,8 +1,9 @@
 Version: 1
-Previous: ae8daa8dcc849ddb87ea9239b0f3ffdd841e545c
-Head: d3373ea13e9933a20ae24e55beb043882e509143
+Previous: 2176b2ae7abf6c041b34c0cf9eab8609fc8b3447
+Head: 2ccbcebdeae4c287b8216aeaf2f61115d923f09f
 Applied:
   warn: 07063483485d61874c92002632b8a4320533010a
   release-notes: d3373ea13e9933a20ae24e55beb043882e509143
+  gitignore: 2ccbcebdeae4c287b8216aeaf2f61115d923f09f
 Unapplied:
 Hidden:
