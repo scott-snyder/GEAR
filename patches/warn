@@ -3,4 +3,11 @@ Top:    d6a25558da7bef665f7e21ebd3fc65280cb5398d
 Author: scott snyder <sss@karma>
 Date:   2020-02-01 20:58:27 -0500
 
-Fix warnings.
+Fix some compilation warnings seen with gcc version 13.1.1 20230519
+on fedora 38.
+
+ - Catching polymorphic type by value
+ - Suppress warnings about fallthrough in switch statements.
+   (Could be better done with an attribute if we could assume C++17.)
+ - Undefine NDEBUG in test code to prevent warnings due to asserts
+   being elided.
