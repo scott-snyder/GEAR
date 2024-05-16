@@ -3,8 +3,7 @@ Top:    cabc7f8f287a5983b327daa7ecb56af6015988b0
 Author: scott snyder <sss@karma>
 Date:   2020-02-01 20:58:27 -0500
 
-Fix some compilation warnings seen with gcc version 13.1.1 20230519
-on fedora 38.
+Fix some compilation warnings seen with gcc version 13 on fedora 38.
 
  - Catching polymorphic type by value
  - Suppress warnings about fallthrough in switch statements.
