@@ -1,0 +1,8 @@
+Bottom: cabc7f8f287a5983b327daa7ecb56af6015988b0
+Top:    cabc7f8f287a5983b327daa7ecb56af6015988b0
+Author: scott snyder <sss@karma>
+Date:   2024-05-24 15:33:18 -0400
+
+Fix compilation warnings.
+
+Potential use of uninitialized variables.
