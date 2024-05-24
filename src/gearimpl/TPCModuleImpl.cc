@@ -649,7 +649,7 @@ namespace gear {
 
 	    // phiMin and phiMax
 
-	    double phiMin, phiMax;
+	    double phiMin=0, phiMax=0;
 
 	    // r > rMax
 	    // If the global origin is outside of local rMax, the tangents on the rMax-circle are
