@@ -1,4 +1,3 @@
-#undef NDEBUG
 #include "gearimpl/RectangularPadRowLayout.h"
 #include "gearimpl/Util.h"
 #include "gearxml/GearXML.h"
