@@ -1,12 +1,6 @@
 Bottom: 1b11be57c3eacd135e0caaf9fb3731070347bbf1
 Top:    bff6df6f2a80b1a2ec628303da6aa119c7a9930a
 Author: scott snyder <sss@karma>
-Date:   2025-03-08 14:03:29 -0500
+Date:   2025-03-08 14:03:49 -0500
 
-Fix some compilation warnings seen with gcc version 13 on fedora 38.
-
- - Catching polymorphic type by value
- - Suppress warnings about fallthrough in switch statements.
-   (Could be better done with an attribute if we could assume C++17.)
- - Undefine NDEBUG in test code to prevent warnings due to asserts
-   being elided.
+Fix compiler warnings about catching polymorphic type by value.
