@@ -1,10 +1,8 @@
-name: Key4hep build
+name: Key4hep build (push)
 on:
   push:
   pull_request:
   workflow_dispatch:
-  schedule:
-    - cron: 16 4 * * 1
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
