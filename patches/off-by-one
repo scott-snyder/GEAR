@@ -1,7 +1,18 @@
 Bottom: 9e0fd441e78f5727ac7a1d53390d2b3ad4da9f02
 Top:    bff6df6f2a80b1a2ec628303da6aa119c7a9930a
 Author: sss <sss@karma>
-Date:   2025-03-08 14:06:19 -0500
+Date:   2025-03-09 22:33:07 -0400
 
-Fix off-by-one error.
-Fixes warning seen with gcc15.
+Fix apparent off-by-one error.
+
+In this line
+
+```
+	// start at the second module
+	for( itr+1; itr!=modulesVector.end(); itr++) {
+```
+
+the initialization section is a no-op.  From the comment, it appears
+that the intent was to increment itr.  Fixed.
+
+This fixes a warning seen with gcc15.
