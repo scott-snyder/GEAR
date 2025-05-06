@@ -1,6 +1,0 @@
-Bottom: fada1ee7b2c42318fed7bb4b9a78c69ee7d547aa
-Top:    fada1ee7b2c42318fed7bb4b9a78c69ee7d547aa
-Author: scott snyder <sss@karma>
-Date:   2025-05-06 15:53:09 -0400
-
-Fix compiler warnings about catching polymorphic type by value.
