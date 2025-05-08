@@ -194,7 +194,6 @@ namespace gear {
     if(_zmin<=pz[1] && pz[1]<=_zmax)
       zcount++;
     //calculate distances from x,y,z to each neighbour
-    int counter=0;
     double sumIntL=0,sumRadL=0,sumWeight=0;
     bool isOnGrid=false;
     for(int ix=0;ix<xcount;ix++)
@@ -207,7 +206,6 @@ namespace gear {
 		std::vector<int>  gpos;
 		calculateGridIndex(gpos,px[ix],py[iy],pz[iz]);
 		std::pair<double,double> vals=_myMap[gpos[0]][gpos[1]][gpos[2]];
-		counter++;
 		if(fabs(d)<1e-5)//point in querry is a grid point
 		  {
 		    sumRadL=vals.first;
