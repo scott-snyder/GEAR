@@ -214,7 +214,7 @@ void testFixedPadSizeDiskLayout( const  FixedPadSizeDiskLayout& pl ) {
 //  	    << std::endl 
 // 	    << std::endl ;
   
-  int nPadTotal = 0 ;
+  [[maybe_unused]] int nPadTotal = 0 ;
 
   std::cout << " First (innermost) 10 pads and last (outermost) 10 pads : "  << std::endl ;
 

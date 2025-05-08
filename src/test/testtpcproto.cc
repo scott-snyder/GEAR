@@ -137,7 +137,7 @@ void testRectangularPadRowLayout( const  RectangularPadRowLayout& pl ) {
 							   500, ymin, ymax );
 #endif
 
-  int nPadTotal = 0 ;
+  [[maybe_unused]] int nPadTotal = 0 ;
 
   for( int i = 0 ; i < nRow ; i++) {
     
