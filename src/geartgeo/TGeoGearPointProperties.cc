@@ -174,7 +174,6 @@ namespace gear {
       throw OutsideGeometryException("No geometry node found at given location. Either there is no node placed here or position is outside of top volume.");
     
     TGeoVolume *cvol=_tgeomanager->GetCurrentVolume();
-    int count=0;
     while(cvol)
       {
 	const char *name=cvol->GetName();
@@ -183,7 +182,6 @@ namespace gear {
 	cvol=_tgeomanager->GetCurrentVolume();
 	if(name==_tgeomanager->GetTopVolume()->GetName())
 	  break;
-	count++;
       }
     return names;
   }
@@ -201,7 +199,6 @@ namespace gear {
     if(!node)
       throw OutsideGeometryException("No geometry node found at given location. Either there is no node placed here or position is outside of top volume.");
     
-    int count=0;
     while(node)
       {
 	const char *name=node->GetName();
@@ -210,7 +207,6 @@ namespace gear {
 	node=_tgeomanager->GetCurrentNode();
 	if(name==_tgeomanager->GetTopNode()->GetName())
 	  break;
-	count++;
       }
     return names;
   }
