@@ -1,0 +1,8 @@
+Bottom: b2b8f9654a92c1b8f3751ad475462d1d17962012
+Top:    b2b8f9654a92c1b8f3751ad475462d1d17962012
+Author: sss <sss@karma>
+Date:   2025-05-08 11:47:18 -0400
+
+Fix clang warnings.
+
+Unused variables.
