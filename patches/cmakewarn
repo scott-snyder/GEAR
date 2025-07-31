@@ -1,0 +1,6 @@
+Bottom: a07443018556cdf9c0e99a394024ab44702ea178
+Top:    a07443018556cdf9c0e99a394024ab44702ea178
+Author: sss <sss@karma>
+Date:   2025-07-31 12:16:26 -0400
+
+Suppress cmake developer warning.
