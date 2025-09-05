@@ -23,7 +23,7 @@ INCLUDE_DIRECTORIES( SYSTEM  "${PROJECT_SOURCE_DIR}/include/tinyxml" )
 ###### LIBRARIES #####################################################
 
 # -------- libgearsurf -------------------------------
-INCLUDE_DIRECTORIES( SYSTEM ${CLHEP_INCLUDE_DIRS} ) # needed for gearsurf only
+INCLUDE_DIRECTORIES( ${CLHEP_INCLUDE_DIRS} ) # needed for gearsurf only
 
 AUX_SOURCE_DIRECTORY( ./gearsurf libgearsurf_srcs )
 ADD_SHARED_LIBRARY( gearsurf ${libgearsurf_srcs} )
