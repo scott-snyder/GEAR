@@ -1,4 +1,4 @@
-
+#undef NDEBUG
 #include "gearimpl/FixedPadSizeDiskLayout.h"
 #include "gearimpl/Util.h"
 #include "gearxml/GearXML.h"
@@ -214,7 +214,7 @@ void testFixedPadSizeDiskLayout( const  FixedPadSizeDiskLayout& pl ) {
 //  	    << std::endl 
 // 	    << std::endl ;
   
-  [[maybe_unused]] int nPadTotal = 0 ;
+  int nPadTotal = 0 ;
 
   std::cout << " First (innermost) 10 pads and last (outermost) 10 pads : "  << std::endl ;
 

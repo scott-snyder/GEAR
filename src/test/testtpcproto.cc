@@ -1,3 +1,4 @@
+#undef NDEBUG
 #include "gearimpl/RectangularPadRowLayout.h"
 #include "gearimpl/Util.h"
 #include "gearxml/GearXML.h"
@@ -137,7 +138,7 @@ void testRectangularPadRowLayout( const  RectangularPadRowLayout& pl ) {
 							   500, ymin, ymax );
 #endif
 
-  [[maybe_unused]] int nPadTotal = 0 ;
+  int nPadTotal = 0 ;
 
   for( int i = 0 ; i < nRow ; i++) {
     
