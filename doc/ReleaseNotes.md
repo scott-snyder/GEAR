@@ -1,3 +1,14 @@
+# v01-09-06
+
+* 2025-10-13 Thomas Madlener ([PR#24](https://github.com/iLCSoft/GEAR/pull/24))
+  - Remove the ubuntu 22 workflow and add a weekly run for CI
+
+* 2025-10-13 sss ([PR#23](https://github.com/iLCSoft/GEAR/pull/23))
+  - Update minimum cmake version to 3.10.
+
+* 2025-10-13 sss ([PR#22](https://github.com/iLCSoft/GEAR/pull/22))
+  - Fix some unused variable warnings seen when compiling with clang.
+
 # v01-09-05
 
 * 2025-03-31 Thomas Madlener ([PR#21](https://github.com/iLCSoft/GEAR/pull/21))
