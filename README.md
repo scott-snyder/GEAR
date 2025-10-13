@@ -1,5 +1,5 @@
 # GEAR
-[![Key4hep build](https://github.com/iLCSoft/GEAR/actions/workflows/key4hep.yml/badge.svg?branch=master)](https://github.com/iLCSoft/GEAR/actions/workflows/key4hep.yml)
+[![Key4hep build](https://github.com/iLCSoft/GEAR/actions/workflows/key4hep.yaml/badge.svg)](https://github.com/iLCSoft/GEAR/actions/workflows/key4hep.yaml)
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/12369/badge.svg)](https://scan.coverity.com/projects/ilcsoft-gear)
 
 GEAR: GEometry Api for Reconstruction 
